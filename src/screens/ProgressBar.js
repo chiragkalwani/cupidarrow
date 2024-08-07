@@ -13,7 +13,7 @@ const ProgressBar = ({ step, steps }) => {
         <Icon name="arrow-back" size={24} color="#000" />
       </TouchableOpacity>
       <View className="flex-1 mx-2">
-        <View className="w-full h-2 bg-gray-300 rounded overflow-hidden mb-2 w-2/5 mx-auto">
+        <View className=" h-2 bg-gray-300 rounded overflow-hidden mb-2 w-2/5 mx-auto">
           <View className="h-full bg-[#FF5069]" style={{ width: `${progress}%` }} />
         </View>
       </View>
